@@ -9,7 +9,14 @@
     <FrameLayout
         android:id="@+id/frag_content"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"></FrameLayout>
+        android:layout_height="match_parent">
+
+        <fragment
+            android:id="@+id/frag"
+            android:name="com.example.comprehensivetest.Frag.Fragment1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
 
     <com.luseen.luseenbottomnavigation.BottomNavigation.BottomNavigationView
         android:id="@+id/bottomNavigation"
